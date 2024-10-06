@@ -4,7 +4,6 @@ body{
     font-family: "Poppins", sans-serif;
     z-index: 0;
 }
-
 @media only screen and (max-width: 768px) {
     header .nav  {
       display: none;
@@ -46,9 +45,6 @@ body{
      justify-content: center;
     }
 }
-
-
-
 @media only screen and (max-width: 670px) {
   
    .menu{
@@ -352,6 +348,21 @@ button{
 .heal{
    margin-top: -10%; 
    margin-right: 45%;
-   margin-left: 15%;
+   margin-left: 5%;
    /* background-color: orange; */
+}
+.nav{
+   text-decoration: none;
+}
+.active{
+   color: blue;
+}
+.active:hover{
+   color: black;
+}
+.nav1{
+   color: black;
+}
+.nav1:hover{
+   color: blue;
 }
