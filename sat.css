@@ -223,12 +223,12 @@ hr{
 }
 
 .side{
-    background-color:#ffffff; 
+   background-color:#ffffff;  
    width: 500px;
    height: 573px;
    float: right;
-   margin-top: -41%;
-   margin-right: 16.8%;
+   margin-top: -40%;
+   margin-right: 21%;
 }
 
 .side h1{
