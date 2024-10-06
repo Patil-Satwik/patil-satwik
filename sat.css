@@ -180,10 +180,11 @@ header{
 
 .info img{
    width: 50%;
+   height: 50%;
    margin: 60px;
    margin-left: 25%;
    box-sizing: border-box;
-   border-radius: 90%;
+   border-radius: 100%;
 }
 .info h4{
    font-weight: 900pz;
