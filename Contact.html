@@ -206,9 +206,11 @@
         margin-bottom: 15px;
         border: none;
         outline: none;
+        border-bottom: 1px solid  black;
+      }
+      .formgroup:hover{
         border-bottom: 1px solid rgba(34, 0, 255, 0.792);
       }
-
       .formgroup label {
         margin-bottom: 5px;
       }
@@ -239,12 +241,19 @@
         display: flex;
         gap: 20px;
       }
-      button {
+      .form-group button {
         background-color: rgba(0, 0, 255, 0.625);
         color: white;
         padding: 10px 20px 10px 20px;
         border: none;
         border-radius: 20px;
+        border-color: rgba(0, 0, 255, 0.625);
+      }
+      button:hover{
+        background-color: white;
+        color: black;
+        border: 1.5px solid  rgba(0, 0, 255, 0.625);
+
       }
       .linking {
         text-decoration: none;
@@ -260,12 +269,26 @@
       .active {
         color: blue;
       }
+      h1::before{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        content: "";
+        background-color: blue;
+        margin-top: 0.8%;
+        left: 0;
+        margin-left: 43%;
+      }
+      .boxa{
+        position: relative;
+      }
+     
     </style>
   </head>
   <body style="background-color: #e6dace">
     <header>
       <div class="box">
-        <a href="index.html" class="linking">
+        <a href="Bootstrap.html" class="linking">
           <h2>Satwik Patil<span>/ PROJECT MANAGER</span></h2>
         </a>
       </div>
@@ -274,7 +297,7 @@
           <a href=""></a
           ><a href=""></a
           ><a href=""></a>
-          <a href="index.html" class="nav1"><li>ABOUTME</li></a>
+          <a href="Bootstrap.html" class="nav1"><li>ABOUTME</li></a>
           <a href="Rusme.html" class="nav1"><li>RESUME</li></a>
           <a href="Project.html" class="nav1"><li>PROJECT</li></a>
           <a href="Contact.html" class="active"><li>CONTACT</li></a>
@@ -287,7 +310,7 @@
         <div class="down" id="tn">
           <nav>
             <ul>
-              <a href="index.html"><li>ABOUT ME</li></a>
+              <a href="Bootstrap.html"><li>ABOUT ME</li></a>
               <a href="Rusme.html"><li>RESUME</li></a>
               <a href="Project.html"><li>PROJECT</li></a>
               <a href="Contact.html"><li>CONTACT</li></a>
@@ -297,10 +320,11 @@
       </div>
     </header>
     <br /><br /><br /><br /><br /><br />
-    <div>
-      <span> <h1 style="margin-left: 45%">Lets Talk</h1></span>
+    <div class="boxa">
+      <div>
+        <span> <h1 style="margin-left: 45%">Lets Talk</h1></span>
+      </div>
     </div>
-
     <div class="container">
       <form>
         <div class="flex">
