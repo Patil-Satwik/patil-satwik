@@ -46,6 +46,99 @@
         color: #333333;
         line-height: 1.6;
       }
+      @media screen and (max-width: 1240px) {
+        .card {
+          background-color: #e6dace;
+          width: 375px;
+          height: 556px;
+          margin-left: 20%;
+          box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.303);
+          z-index: 2;
+          margin-top: -65%;
+        }
+        .nav {
+          margin-left: -25%;
+        }
+        .side {
+          margin-top: -45%;
+          margin-right: 8%;
+        }
+        .bgcolor {
+          width: 550px;
+        }
+      }
+      @media screen and (max-width: 992px) {
+        .nav {
+          margin-left: -18%;
+        }
+        .nav ul {
+          gap: 25px;
+        }
+        .bgcolor {
+          width: 500px;
+        }
+        .card {
+          margin-top: -85%;
+        }
+        .side {
+          margin-top: -56%;
+          margin-right: -10%;
+        }
+        #foot {
+          margin-top: 19%;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .box {
+          margin-left: -53%;
+        }
+        .nav {
+          visibility: hidden;
+        }
+        .menu {
+          visibility: visible;
+          position: relative;
+          margin-left: -58%;
+        }
+        .down {
+          position: absolute;
+          display: none;
+        }
+        .menu:hover .down {
+          display: block;
+          background-color: rgba(128, 128, 128, 0.374);
+        }
+        .drop {
+          cursor: pointer;
+          margin-left: 60%;
+        }
+        .down nav ul {
+          display: flex;
+          gap: 0px;
+          flex-direction: column !important;
+          text-decoration: none;
+          text-align: center;
+        }
+        .down li {
+          color: white;
+          margin-left: -40%;
+        }
+        .side {
+          margin-top: -5%;
+          margin-right: -10%;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        .box {
+          margin-left: -8%;
+        }
+        .menu {
+          visibility: visible;
+          position: relative;
+          margin-left: 27%;
+        }
+        
+      }
     </style>
   </head>
   <body>
@@ -67,7 +160,7 @@
       </nav>
       <div class="menu">
         <div class="drop">
-          <img src="menu-outline.svg" alt="" width="30px" height="30px" />
+          <img src="menu bar.png" alt="" width="30px" height="30px" />
         </div>
         <div class="down" id="tn">
           <nav>
